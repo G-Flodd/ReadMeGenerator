@@ -32,17 +32,17 @@ const questions = [
     },
     {
         type: "input",
-        name: "tests",
+        name: "Software",
         message: "What software is being used?"
     },
     {
         type: "input",
-        name: "questions",
+        name: "GitHub",
         message: "Enter your GitHub link here"
     },
     {
         type: "input",
-        name: "questions",
+        name: "Site",
         message: "Enter your website link here"
     }
 
