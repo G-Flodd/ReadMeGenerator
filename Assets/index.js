@@ -12,6 +12,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "usage",
+        message: "Enter instruction on usage:"
+    },
+    {
+        type: "input",
         name: "description",
         message: "Please provide a project description"
     },
@@ -35,6 +40,12 @@ const questions = [
         name: "Software",
         message: "What software is being used?"
     },
+
+    {
+        type: "input",
+        name: "userQuestions",
+        message: "Enter an email address for questions:"
+    },
     {
         type: "input",
         name: "GitHub",
@@ -48,12 +59,26 @@ const questions = [
 
 ];
 
-// function to write README file
-function writeToFile(fileName, data) {
+const promptUser = (questions) => {
+    inquirer.prompt(questions)
+        .then((answers) => {
+
+            const mdContent = generateMarkdown(answers);
+            writeToFile('README.md', mdContent);
+
+        })
 }
 
+// function to write README file
+function writeToFile(fileName, data) {
+    //fs.writeFileSync('ReadMe.md')
+    console.log(process.cwd());
+    fs.writeFile(path.join(process.cwd() + "/dist/" + fileName), data, (err) => err && console.error(err))
+}
 // function to initialize program
 function init() {
+
+    promptUser(questions)
 
 }
 
