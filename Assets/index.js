@@ -48,12 +48,12 @@ const questions = [
     },
     {
         type: "input",
-        name: "GitHub",
+        name: "github",
         message: "Enter your GitHub link here"
     },
     {
         type: "input",
-        name: "Site",
+        name: "site",
         message: "Enter your website link here"
     }
 

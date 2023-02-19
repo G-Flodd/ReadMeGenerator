@@ -14,26 +14,38 @@ function generateMarkdown(answers) {
   6. [Contributers](#Contributers)
   7. [Software(#Software)
   8. [UserQuestions](#UserQuestions)
-  9. [Contributers](#Contributers)
-  10. [Contact for Questions](#Questions)
+  9. [GitHub](#GitHub)
+  10. [Website](#Site)
+
+  ## Title
+  ${answers.title}
+
+  ## Usage 
+  ${answers.licence}
+
+  ## Description
+  ${answers.usage}
 
   ## Installation
   ${answers.installation}
 
-  ## Licence 
+  ## Licence
   ${answers.licence}
-
-  ## Usage
-  ${answers.usage}
-
-  ## Contributers
+  
+  ## Contributers 
   ${answers.contributers}
 
-  ## Tests
-  ${answers.tests}
+  ## Software)
+  ${answers.usage}
 
-  ## Questions
-  ${answers.questions}`
+  ## UserQuestions
+  ${answers.userQuestions}
+
+  ## GitHub
+  ${answers.github}
+
+  ## Website
+  ${answers.site}`
 
 ;
 }
