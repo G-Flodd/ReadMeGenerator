@@ -26,9 +26,10 @@ const questions = [
         message: "Please provide the installation instructions"
     },
     {
-        type: "input",
+        type: "list",
         name: "licence",
-        message: "what licence is being used?"
+        message: "what licence are you using?",
+        choices: ["None","MIT","Apache","Mozilla", "GNU"],
     },
     {
         type: "input",
@@ -62,11 +63,38 @@ const questions = [
 const promptUser = (questions) => {
     inquirer.prompt(questions)
         .then((answers) => {
+            new_answers = mitBadge(answers);
+            console.log(new_answers);
 
             const mdContent = generateMarkdown(answers);
             writeToFile('README.md', mdContent);
 
         })
+}
+
+function mitBadge (promptAnswers){
+    console.log("chosen=" + promptAnswers.licence)
+    if(promptAnswers.licence === "None"){
+        promptAnswers.licence = ""
+        promptAnswers.licenceMsg = "The application is not covered under a licence"
+    }
+    else if(promptAnswers.licence === "MIT"){
+        promptAnswers.licence = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+        promptAnswers.licenceMsg = "The application is covered under the MIT Licence"
+    }
+    else if(promptAnswers.licence === "Apache"){
+        promptAnswers.licence = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+        promptAnswers.licenceMsg = "The application is covered under the Apache Licence"
+    }
+    else if(promptAnswers.licence === "Mozilla"){
+        promptAnswers.licence = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
+        promptAnswers.licenceMsg = "The application is covered under the Mozilla Licence"
+    }
+    else if(promptAnswers.licence === "GNU"){
+        promptAnswers.licence = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+        promptAnswers.licenceMsg = "The application is covered under the GNU Licence"
+    }
+    return promptAnswers
 }
 
 // function to write README file

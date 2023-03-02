@@ -45,9 +45,14 @@ function generateMarkdown(answers) {
   ${answers.github}
 
   ## Website
-  ${answers.site}`
+  ${answers.site}
 
-;
+  ## Questions
+  [GitHub](https://github.com/${answers.github})
+
+    [Email](mailto: ${ answers.email })
+  ${ answers.questions }
+    `;
 }
 
 module.exports = generateMarkdown;
