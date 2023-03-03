@@ -6,47 +6,31 @@ function generateMarkdown(answers) {
   ${answers.description}
 
   ##Table of Contents 
-  1. [Title](#Title)
-  2. [Usage](#Usage)
-  3. [Description](#Description)
-  4. [Installation](#Installation)
-  5. [Licence](#Licence)
-  6. [Contributers](#Contributers)
-  7. [Software(#Software)
-  8. [UserQuestions](#UserQuestions)
-  9. [GitHub](#GitHub)
-  10. [Website](#Site)
+  1. [Usage](#Usage)
+  2. [Installation](#Installation)
+  3. [Licence](#Licence)
+  4. [Contributers](#Contributers)
+  5. [Tests](#Tests)
+  6. [UserQuestions](#UserQuestions)
 
-  ## Title
-  ${answers.title}
-
-  ## Usage 
-  ${answers.licence}
-
-  ## Description
+  ## Usage
   ${answers.usage}
 
-  ## Installation
+  ## Installation 
   ${answers.installation}
 
-  ## Licence
+  ## License
   ${answers.licence}
-  
-  ## Contributers 
+
+  ## Contributers
   ${answers.contributers}
 
-  ## Software)
-  ${answers.usage}
+  ## Tests
+  ${answers.tests}
 
-  ## UserQuestions
-  ${answers.userQuestions}
-
-  ## GitHub
-  ${answers.github}
-
-  ## Website
-  ${answers.site}
-
+  ## Website Link
+  ${answers.websitelink}
+  
   ## Questions
   [GitHub](https://github.com/${answers.github})
 

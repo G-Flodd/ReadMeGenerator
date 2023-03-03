@@ -12,13 +12,13 @@ const questions = [
     },
     {
         type: "input",
-        name: "usage",
-        message: "Enter instruction on usage:"
+        name: "description",
+        message: "Please provide a project description"
     },
     {
         type: "input",
-        name: "description",
-        message: "Please provide a project description"
+        name: "usage",
+        message: "Enter instruction on usage:"
     },
     {
         type: "input",
@@ -28,24 +28,23 @@ const questions = [
     {
         type: "list",
         name: "licence",
-        message: "what licence are you using?",
+        message: "What licence are you using?",
         choices: ["None","MIT","Apache","Mozilla", "GNU"],
     },
     {
         type: "input",
         name: "contributers",
-        message: "who contributed to this project?"
+        message: "Who contributed to this project?"
     },
     {
         type: "input",
-        name: "Software",
-        message: "What software is being used?"
+        name: "tests",
+        message: "Were any tests done on your project"
     },
-
     {
         type: "input",
-        name: "userQuestions",
-        message: "Enter an email address for questions:"
+        name: "site",
+        message: "Enter your website link here"
     },
     {
         type: "input",
@@ -54,8 +53,8 @@ const questions = [
     },
     {
         type: "input",
-        name: "site",
-        message: "Enter your website link here"
+        name: "userquestions",
+        message: "Where should people contact you for questions?"
     }
 
 ];
