@@ -1,7 +1,7 @@
-# a
+# ReadMe Generator
 
   ## Description
-  a
+  Here you can create a automated Readme based on maunual input.
 
   ##Table of Contents 
   1. [Title](#Title)
@@ -10,43 +10,43 @@
   4. [Installation](#Installation)
   5. [Licence](#Licence)
   6. [Contributers](#Contributers)
-  7. [Software(#Software)
+  7. [Software](#Software)
   8. [UserQuestions](#UserQuestions)
   9. [GitHub](#GitHub)
   10. [Website](#Site)
 
   ## Title
-  a
+  ReadMe Generator
 
   ## Usage 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  a
+  N/A
 
   ## Installation
-  a
+  N/A
 
   ## Licence
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
   ## Contributers 
-  me
+  N/A
 
   ## Software)
-  a
+  N/A
 
   ## UserQuestions
-  keeke
+  georgedodd@hotmail.co.uk
 
   ## GitHub
-  kekeke
+  https://github.com/G-Flodd
 
   ## Website
-  kekekke
+  N/A
 
   ## Questions
-  [GitHub](https://github.com/kekeke)
+  [GitHub](https://github.com/https://github.com/G-Flodd)
 
     [Email](mailto: undefined)
   undefined
