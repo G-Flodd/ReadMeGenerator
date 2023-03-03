@@ -34,8 +34,8 @@ function generateMarkdown(answers) {
   ## Questions
   [GitHub](https://github.com/${answers.github})
 
-    [Email](mailto: ${ answers.email })
-  ${ answers.questions }
+  [Email](mailto:${answers.questions})
+
     `;
 }
 

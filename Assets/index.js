@@ -43,17 +43,17 @@ const questions = [
     },
     {
         type: "input",
-        name: "site",
+        name: "websitelink",
         message: "Enter your website link here"
     },
     {
         type: "input",
         name: "github",
-        message: "Enter your GitHub link here"
+        message: "Enter your GitHub username here"
     },
     {
         type: "input",
-        name: "userquestions",
+        name: "questions",
         message: "Where should people contact you for questions?"
     }
 
