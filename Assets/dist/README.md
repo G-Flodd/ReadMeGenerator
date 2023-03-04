@@ -1,7 +1,7 @@
-# aa
+# ReadMe Generator
 
   ## Description
-  a
+  You can use this to create a detailed ReadMe.
 
   ##Table of Contents 
   1. [Usage](#Usage)
@@ -12,25 +12,25 @@
   6. [UserQuestions](#UserQuestions)
 
   ## Usage
-  a
+  Run node index.js in a trminal to prompt start.
 
   ## Installation 
-  a
+  N/A
 
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Contributers
-  a
+  N/A
 
   ## Tests
-  a
+  N/A
 
   ## Website Link
-  google.com
+  N/A
   
   ## Questions
-  [GitHub](https://github.com/https://github.com/G-Flodd)
+  [GitHub](https://github.com/G-Flodd)
 
   [Email](mailto:georgedodd@hotmail.co.uk)
 
